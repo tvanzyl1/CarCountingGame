@@ -11,4 +11,9 @@ You start by adding players and assign a car colour.
 ## Playing the game
 If you see a car, hit the +1.
 
-![image](https://github.com/user-attachments/assets/80c3694b-0000-468d-8e9e-4670c7aa46eb)
+![image](https://github.com/user-attachments/assets/f09caf78-8973-4ff7-817b-77a1f631c550)
+
+## Resetting the scores
+Additional warning message to not accidentally reset scores
+
+![image](https://github.com/user-attachments/assets/24dc19dc-925f-48e5-9e5b-f231c87d29e6)

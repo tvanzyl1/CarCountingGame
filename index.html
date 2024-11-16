@@ -16,7 +16,7 @@
             <button type="submit">Start Game</button>
         </form>
     </div>
-	<div id="game">
+	<div id="game" style="display: none;">
 		<div id="players"></div>
 		<button onclick="endGame()">End Game</button>
 		<button onclick="resetScores()">Reset Scores</button>
@@ -26,6 +26,15 @@
 		<div id="finalScores"></div>
 		<button onclick="startNewGame()">Start New Game</button>
 	</div>
+	
+	<div id="resetConfirmModal" class="modal hidden">
+    <div class="modal-content">
+        <p>Are you sure you want to reset all scores? This action cannot be undone.</p>
+        <button onclick="actuallyResetScores()">Yes, Reset</button>
+        <button onclick="closeModal()">No, Cancel</button>
+    </div>
+</div>
+	
     <script src="script.js"></script>
 </body>
 </html>

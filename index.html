@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Counting Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Car Counting Game</h1>
+    <div id="setup">
+        <h2>Player Setup</h2>
+        <form id="setupForm">
+            <div id="playerInputs"></div>
+            <button type="button" onclick="addPlayer()">Add Player</button>
+            <button type="submit">Start Game</button>
+        </form>
+    </div>
+	<div id="game">
+		<div id="players"></div>
+		<button onclick="endGame()">End Game</button>
+		<button onclick="resetScores()">Reset Scores</button>
+	</div>
+	<div id="summary" style="display: none;">
+		<h2>Game Summary</h2>
+		<div id="finalScores"></div>
+		<button onclick="startNewGame()">Start New Game</button>
+	</div>
+    <script src="script.js"></script>
+</body>
+</html>

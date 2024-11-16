@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#playerInputs > div {
+    margin-bottom: 10px;
+}
+
+input, select {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+#players div {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+button {
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
